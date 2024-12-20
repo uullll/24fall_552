@@ -1,0 +1,46 @@
+read_file -format verilog {read_decoder_4_16.v, shifter.v, psa_16bit.v, register_file.v, register.v, RED.v, write_decoder_4_16.v,  pipelined_cache_control.v, one-hot.v, pc_control_revised.v, IFID.v, MEMWB.v, mux_3_1.v, metadata_way_array.v, pc_reg.v, pldff.v, dff.v, data_way_array.v, data_set.v, EXMEM.v, FLAG_Register.v, forwarding_unit1.v, full_adder.v, hazard_detection.v, adder_16bit.v, IDEX.v, addr_4bit.v, alu_16bit.v, forwarding_unit.v, bit_cell.v, cache.v, cache_fill_fsm_revised.v, cache_word.v, Control_Unit.v, cache_cell.v, cpu.v }
+set current_design cpu
+link
+create_clock -name "clk" -period 100000 { clk  }
+set_dont_touch_network [find port clk]
+set prim_inputs [remove_from_collection [all_inputs] [find port clk]]
+set_input_delay -clock clk 0.01 [copy_collection $prim_inputs]
+set_driving_cell -lib_cell NAND2X2_LVT -library saed32lvt_tt0p85v25c [copy_collection $prim_inputs]
+
+set_dont_touch_network [find port rst]
+
+
+set_output_delay -clock clk 0.01 [all_outputs]
+set_load 0.1 [all_outputs]
+
+set_wire_load_model -name 16000 -library saed32lvt_tt0p85v25c
+
+compile -map_effort low -area_effort low
+ungroup -all -flatten
+
+compile -map_effort low
+report_area > area.rpt
+report_timing -delay max > delay_max.rpt
+report_timing -delay min > delay_min.rpt
+write -format verilog cpu -output cpu.vg
+write_sdc cpu.sdc
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

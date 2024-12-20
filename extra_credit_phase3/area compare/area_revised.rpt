@@ -1,0 +1,34 @@
+Warning: Design 'alu_16bit' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
+ 
+****************************************
+Report : area
+Design : alu_16bit
+Version: V-2023.12-SP5
+Date   : Mon Dec 16 19:42:18 2024
+****************************************
+
+Information: Updating design information... (UID-85)
+Library(s) Used:
+
+    saed32lvt_tt0p85v25c (File: /cae/apps/data/saed32_edk-2022/lib/stdcell_lvt/db_nldm/saed32lvt_tt0p85v25c.db)
+
+Number of ports:                           54
+Number of nets:                           267
+Number of cells:                          163
+Number of combinational cells:            158
+Number of sequential cells:                 3
+Number of macros/black boxes:               0
+Number of buf/inv:                         11
+Number of references:                      31
+
+Combinational area:                471.182971
+Buf/Inv area:                       13.977920
+Noncombinational area:               0.000000
+Macro/Black Box area:                0.000000
+Net Interconnect area:             155.608121
+
+Total cell area:                   471.182971
+Total area:                        626.791093
+
+Information: This design contains black box (unknown) components. (RPT-8)
+1

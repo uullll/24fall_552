@@ -1,0 +1,50 @@
+Warning: Design 'cpu' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay min
+        -max_paths 1
+Design : cpu
+Version: V-2023.12-SP5
+Date   : Mon Dec 16 22:50:36 2024
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: tt0p85v25c   Library: saed32lvt_tt0p85v25c
+Wire Load Model Mode: enclosed
+
+  Startpoint: mem_wb/control_pldff/q_reg[1]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: hlt (output port clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  cpu                16000                 saed32lvt_tt0p85v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  mem_wb/control_pldff/q_reg[1]/CLK (DFFX1_LVT)           0.00 #     0.00 r
+  mem_wb/control_pldff/q_reg[1]/Q (DFFX1_LVT)             0.07       0.07 r
+  mem_wb/control_pldff/q[1] (pldff_WIDTH4_1)              0.00       0.07 r
+  mem_wb/WB_Halt (MEMWB)                                  0.00       0.07 r
+  hlt (out)                                               0.00       0.08 r
+  data arrival time                                                  0.08
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  output external delay                                  -0.01      -0.01
+  data required time                                                -0.01
+  --------------------------------------------------------------------------
+  data required time                                                -0.01
+  data arrival time                                                 -0.08
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.09
+
+
+1

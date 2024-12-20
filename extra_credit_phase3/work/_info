@@ -1,0 +1,481 @@
+m255
+K4
+z2
+!s11f vlog 2021.2_2 2021.06, Jun 19 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/filespace/w/wzhang765/552/gfdgd/version12.16
+vcache_fill_fsm
+Z0 !s110 1734412264
+!i10b 1
+!s100 6WheMzKWP[;=i944MUmF00
+In<BB?abBAiXMlW^klXIBO3
+Z1 d/filespace/w/wzhang765/552/new/version12.16
+w1734339606
+8/filespace/w/wzhang765/552/new/version12.16/cache_fill_fsm_revised.v
+F/filespace/w/wzhang765/552/new/version12.16/cache_fill_fsm_revised.v
+!i122 57
+L0 1 114
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 OE;L;2021.2_2;73
+r1
+!s85 0
+31
+Z4 !s108 1734412264.000000
+!s107 /filespace/w/wzhang765/552/new/version12.16/cache_fill_fsm_revised.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|/filespace/w/wzhang765/552/new/version12.16/cache_fill_fsm_revised.v|
+!i113 0
+Z5 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z6 tCvgOpt 0
+vcpu
+R0
+!i10b 1
+!s100 `V<moX31VKn1UQf7_@GMG2
+IdP;SBWmTo9;lAk^VaX4RY2
+R1
+w1734411036
+8/filespace/w/wzhang765/552/new/version12.16/cpu.vg
+F/filespace/w/wzhang765/552/new/version12.16/cpu.vg
+!i122 41
+L0 8 467
+R2
+R3
+r1
+!s85 0
+31
+R4
+!s107 /filespace/w/wzhang765/552/new/version12.16/cpu.vg|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|/filespace/w/wzhang765/552/new/version12.16/cpu.vg|
+!i113 0
+R5
+R6
+vEXMEM
+R0
+!i10b 1
+!s100 6`lgE`e9jE3ci9>l[>@ON3
+IY9ZEKg^h[<h`GknkF[LdR1
+R1
+Z7 w1734339601
+8/filespace/w/wzhang765/552/new/version12.16/EXMEM.v
+F/filespace/w/wzhang765/552/new/version12.16/EXMEM.v
+!i122 44
+L0 1 87
+R2
+R3
+r1
+!s85 0
+31
+R4
+!s107 /filespace/w/wzhang765/552/new/version12.16/EXMEM.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|/filespace/w/wzhang765/552/new/version12.16/EXMEM.v|
+!i113 0
+R5
+R6
+n@e@x@m@e@m
+vFLAG_Register
+R0
+!i10b 1
+!s100 0@N9[AYhWkjf]]Wn>Qal50
+I4E1;2<]b[KAIH:4SL]LKZ0
+R1
+Z8 w1734339602
+8/filespace/w/wzhang765/552/new/version12.16/FLAG_Register.v
+F/filespace/w/wzhang765/552/new/version12.16/FLAG_Register.v
+!i122 45
+L0 1 45
+R2
+R3
+r1
+!s85 0
+31
+R4
+!s107 /filespace/w/wzhang765/552/new/version12.16/FLAG_Register.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|/filespace/w/wzhang765/552/new/version12.16/FLAG_Register.v|
+!i113 0
+R5
+R6
+n@f@l@a@g_@register
+vForwarding_Unit
+R0
+!i10b 1
+!s100 [=zm6mfaj6Q9bB>I_<oFn0
+IT6i:zodG2mZC:bkg?zefR1
+R1
+R8
+8/filespace/w/wzhang765/552/new/version12.16/forwarding_unit.v
+F/filespace/w/wzhang765/552/new/version12.16/forwarding_unit.v
+!i122 46
+L0 1 48
+R2
+R3
+r1
+!s85 0
+31
+R4
+!s107 /filespace/w/wzhang765/552/new/version12.16/forwarding_unit.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|/filespace/w/wzhang765/552/new/version12.16/forwarding_unit.v|
+!i113 0
+R5
+R6
+n@forwarding_@unit
+vForwarding_Unit1
+R0
+!i10b 1
+!s100 c5icA9eoK[mFQT^NKS10h0
+ILG1zRZA^I4j:I:>>AV_7a2
+R1
+w1734333209
+8/filespace/w/wzhang765/552/new/version12.16/forwarding_unit1.v
+F/filespace/w/wzhang765/552/new/version12.16/forwarding_unit1.v
+!i122 47
+L0 1 127
+R2
+R3
+r1
+!s85 0
+31
+R4
+!s107 /filespace/w/wzhang765/552/new/version12.16/forwarding_unit1.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|/filespace/w/wzhang765/552/new/version12.16/forwarding_unit1.v|
+!i113 0
+R5
+R6
+n@forwarding_@unit1
+vHazard_Detection_Unit
+R0
+!i10b 1
+!s100 fYFn0Tj?3S?hBG2gRE1kF0
+I5FHSfFbzk`Mzh1;<=0e1o1
+R1
+Z9 w1734339603
+8/filespace/w/wzhang765/552/new/version12.16/hazard_detection.v
+F/filespace/w/wzhang765/552/new/version12.16/hazard_detection.v
+!i122 48
+L0 1 59
+R2
+R3
+r1
+!s85 0
+31
+R4
+!s107 /filespace/w/wzhang765/552/new/version12.16/hazard_detection.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|/filespace/w/wzhang765/552/new/version12.16/hazard_detection.v|
+!i113 0
+R5
+R6
+n@hazard_@detection_@unit
+vIDEX
+R0
+!i10b 1
+!s100 `NQC`gXIYYHTIzYaXYToz1
+I6X608?KoVm6z;J3T@O]EY3
+R1
+R9
+8/filespace/w/wzhang765/552/new/version12.16/IDEX.v
+F/filespace/w/wzhang765/552/new/version12.16/IDEX.v
+!i122 49
+L0 1 174
+R2
+R3
+r1
+!s85 0
+31
+R4
+!s107 /filespace/w/wzhang765/552/new/version12.16/IDEX.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|/filespace/w/wzhang765/552/new/version12.16/IDEX.v|
+!i113 0
+R5
+R6
+n@i@d@e@x
+vIFID
+R0
+!i10b 1
+!s100 GZY>ABfgD:CFm8b[61LYd1
+I_Re69l0R4FLoX1DAM2SNG2
+R1
+R9
+8/filespace/w/wzhang765/552/new/version12.16/IFID.v
+F/filespace/w/wzhang765/552/new/version12.16/IFID.v
+!i122 50
+L0 1 33
+R2
+R3
+r1
+!s85 0
+31
+R4
+!s107 /filespace/w/wzhang765/552/new/version12.16/IFID.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|/filespace/w/wzhang765/552/new/version12.16/IFID.v|
+!i113 0
+R5
+R6
+n@i@f@i@d
+vmemory4c
+R0
+!i10b 1
+!s100 ;^=a@W[n8SNnKQaPO7C262
+IhZoC`FL`Vdk2Sgn6L>]A<1
+R1
+w1734411932
+8/filespace/w/wzhang765/552/new/version12.16/memory4c.v
+F/filespace/w/wzhang765/552/new/version12.16/memory4c.v
+!i122 43
+L0 27 66
+R2
+R3
+r1
+!s85 0
+31
+R4
+!s107 /filespace/w/wzhang765/552/new/version12.16/memory4c.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|/filespace/w/wzhang765/552/new/version12.16/memory4c.v|
+!i113 0
+R5
+R6
+vMEMWB
+R0
+!i10b 1
+!s100 ]4=kdU;19n?52>6JCM4Xh1
+IeE@DN4]_DFE6OKE<0G71b1
+R1
+R9
+8/filespace/w/wzhang765/552/new/version12.16/MEMWB.v
+F/filespace/w/wzhang765/552/new/version12.16/MEMWB.v
+!i122 51
+L0 1 92
+R2
+R3
+r1
+!s85 0
+31
+R4
+!s107 /filespace/w/wzhang765/552/new/version12.16/MEMWB.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|/filespace/w/wzhang765/552/new/version12.16/MEMWB.v|
+!i113 0
+R5
+R6
+n@m@e@m@w@b
+vpc_control
+R0
+!i10b 1
+!s100 ?Jd?:AzGNlA_=:i:NCK[i2
+IX>:NgQ;5B8jbFAHcY]WL41
+R1
+Z10 w1734339604
+8/filespace/w/wzhang765/552/new/version12.16/pc_control_revised.v
+F/filespace/w/wzhang765/552/new/version12.16/pc_control_revised.v
+!i122 52
+L0 1 71
+R2
+R3
+r1
+!s85 0
+31
+R4
+!s107 /filespace/w/wzhang765/552/new/version12.16/pc_control_revised.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|/filespace/w/wzhang765/552/new/version12.16/pc_control_revised.v|
+!i113 0
+R5
+R6
+vpc_register
+R0
+!i10b 1
+!s100 O4;M6QKaj0]RJFeL3b0Yk3
+IAQ=zQ;PR_VYzkP6XalHY30
+R1
+R10
+8/filespace/w/wzhang765/552/new/version12.16/pc_reg.v
+F/filespace/w/wzhang765/552/new/version12.16/pc_reg.v
+!i122 53
+Z11 L0 1 25
+R2
+R3
+r1
+!s85 0
+31
+R4
+!s107 /filespace/w/wzhang765/552/new/version12.16/pc_reg.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|/filespace/w/wzhang765/552/new/version12.16/pc_reg.v|
+!i113 0
+R5
+R6
+vphase3_cpu_tb
+R0
+!i10b 1
+!s100 kPfJ>K@zEe9]dKX[XQYk60
+IG^@5fnL`>28@?D^[<@lbh3
+R1
+Z12 w1734339605
+8/filespace/w/wzhang765/552/new/version12.16/phase3_cpu_tb.v
+F/filespace/w/wzhang765/552/new/version12.16/phase3_cpu_tb.v
+!i122 42
+L0 4 54
+R2
+R3
+r1
+!s85 0
+31
+R4
+!s107 /filespace/w/wzhang765/552/new/version12.16/phase3_cpu_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|/filespace/w/wzhang765/552/new/version12.16/phase3_cpu_tb.v|
+!i113 0
+R5
+R6
+vpipelined_cache_control
+R0
+!i10b 1
+!s100 _Lc<ZbYTSR9kRDa5VioKB3
+I`Li?`JM;z5f>L?i>0mB^H1
+R1
+w1734412189
+8/filespace/w/wzhang765/552/new/version12.16/pipelined_cache_control.v
+F/filespace/w/wzhang765/552/new/version12.16/pipelined_cache_control.v
+!i122 54
+L0 1 197
+R2
+R3
+r1
+!s85 0
+31
+R4
+!s107 /filespace/w/wzhang765/552/new/version12.16/pipelined_cache_control.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|/filespace/w/wzhang765/552/new/version12.16/pipelined_cache_control.v|
+!i113 0
+R5
+R6
+vpldff
+Z13 !s110 1734412265
+!i10b 1
+!s100 <jg]BO6FcnH;<3Xb0@Zf^2
+I8FB5b?G6<OmA7LFY0QcQP2
+R1
+R12
+8/filespace/w/wzhang765/552/new/version12.16/pldff.v
+F/filespace/w/wzhang765/552/new/version12.16/pldff.v
+!i122 58
+L0 11 15
+R2
+R3
+r1
+!s85 0
+31
+R4
+!s107 /filespace/w/wzhang765/552/new/version12.16/pldff.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|/filespace/w/wzhang765/552/new/version12.16/pldff.v|
+!i113 0
+R5
+R6
+vread_decoder_4_16
+R13
+!i10b 1
+!s100 G`AbA9d1[Y:b8aT<KK8HV1
+I:RZ<:Nh4j_6@44jANN0Lk0
+R1
+Z14 w1734339600
+8/filespace/w/wzhang765/552/new/version12.16/read_decoder_4_16.v
+F/filespace/w/wzhang765/552/new/version12.16/read_decoder_4_16.v
+!i122 59
+L0 1 23
+R2
+R3
+r1
+!s85 0
+31
+Z15 !s108 1734412265.000000
+!s107 /filespace/w/wzhang765/552/new/version12.16/read_decoder_4_16.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|/filespace/w/wzhang765/552/new/version12.16/read_decoder_4_16.v|
+!i113 0
+R5
+R6
+vregister
+R0
+!i10b 1
+!s100 =g;JE]EVPU>J1gi63GbB21
+IJW9ekYl[CR3Yhmj291bY=1
+R1
+w1734407268
+8/filespace/w/wzhang765/552/new/version12.16/register.v
+F/filespace/w/wzhang765/552/new/version12.16/register.v
+!i122 55
+R11
+R2
+R3
+r1
+!s85 0
+31
+R4
+!s107 /filespace/w/wzhang765/552/new/version12.16/register.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|/filespace/w/wzhang765/552/new/version12.16/register.v|
+!i113 0
+R5
+R6
+vregister_file
+R0
+!i10b 1
+!s100 28W`4]UM^l4jG`a0QG8bQ0
+ISRf0CT3zcQT[c;PSKeN]30
+R1
+R14
+8/filespace/w/wzhang765/552/new/version12.16/register_file.v
+F/filespace/w/wzhang765/552/new/version12.16/register_file.v
+!i122 56
+L0 1 233
+R2
+R3
+r1
+!s85 0
+31
+R4
+!s107 /filespace/w/wzhang765/552/new/version12.16/register_file.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|/filespace/w/wzhang765/552/new/version12.16/register_file.v|
+!i113 0
+R5
+R6
+vwisc_trace_p3
+R0
+!i10b 1
+!s100 d@fAJ>hk27aUN4mnMI2bK3
+IPAb`fD45ZXb?blBOLI=N61
+R1
+R14
+8/filespace/w/wzhang765/552/new/version12.16/wisc_trace_p3.v
+F/filespace/w/wzhang765/552/new/version12.16/wisc_trace_p3.v
+!i122 40
+L0 3 112
+R2
+R3
+r1
+!s85 0
+31
+R4
+!s107 /filespace/w/wzhang765/552/new/version12.16/wisc_trace_p3.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|/filespace/w/wzhang765/552/new/version12.16/wisc_trace_p3.v|
+!i113 0
+R5
+R6
+vwrite_decoder_4_16
+R13
+!i10b 1
+!s100 T?i;D<bdEQmlCBQJi2@><3
+I5InZ@AE8]Gal_FUOU]L3V1
+R1
+R7
+8/filespace/w/wzhang765/552/new/version12.16/write_decoder_4_16.v
+F/filespace/w/wzhang765/552/new/version12.16/write_decoder_4_16.v
+!i122 60
+L0 1 27
+R2
+R3
+r1
+!s85 0
+31
+R15
+!s107 /filespace/w/wzhang765/552/new/version12.16/write_decoder_4_16.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|/filespace/w/wzhang765/552/new/version12.16/write_decoder_4_16.v|
+!i113 0
+R5
+R6

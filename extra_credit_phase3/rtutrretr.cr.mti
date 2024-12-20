@@ -1,0 +1,148 @@
+/filespace/w/wzhang765/552/new/version12.16/forwarding_unit1.v {1 {vlog -work work -vopt -stats=none /filespace/w/wzhang765/552/new/version12.16/forwarding_unit1.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module Forwarding_Unit1
+
+Top level modules:
+	Forwarding_Unit1
+
+} {} {}} /filespace/w/wzhang765/552/new/version12.16/pldff.v {1 {vlog -work work -vopt -stats=none /filespace/w/wzhang765/552/new/version12.16/pldff.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module pldff
+
+Top level modules:
+	pldff
+
+} {} {}} /filespace/w/wzhang765/552/new/version12.16/FLAG_Register.v {1 {vlog -work work -vopt -stats=none /filespace/w/wzhang765/552/new/version12.16/FLAG_Register.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module FLAG_Register
+
+Top level modules:
+	FLAG_Register
+
+} {} {}} /filespace/w/wzhang765/552/new/version12.16/cache_fill_fsm_revised.v {1 {vlog -work work -vopt -stats=none /filespace/w/wzhang765/552/new/version12.16/cache_fill_fsm_revised.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module cache_fill_fsm
+
+Top level modules:
+	cache_fill_fsm
+
+} {} {}} /filespace/w/wzhang765/552/new/version12.16/phase3_cpu_tb.v {1 {vlog -work work -vopt -stats=none /filespace/w/wzhang765/552/new/version12.16/phase3_cpu_tb.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module phase3_cpu_tb
+
+Top level modules:
+	phase3_cpu_tb
+
+} {} {}} /filespace/w/wzhang765/552/new/version12.16/hazard_detection.v {1 {vlog -work work -vopt -stats=none /filespace/w/wzhang765/552/new/version12.16/hazard_detection.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module Hazard_Detection_Unit
+
+Top level modules:
+	Hazard_Detection_Unit
+
+} {} {}} /filespace/w/wzhang765/552/new/version12.16/read_decoder_4_16.v {1 {vlog -work work -vopt -stats=none /filespace/w/wzhang765/552/new/version12.16/read_decoder_4_16.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module read_decoder_4_16
+
+Top level modules:
+	read_decoder_4_16
+
+} {} {}} /filespace/w/wzhang765/552/new/version12.16/forwarding_unit.v {1 {vlog -work work -vopt -stats=none /filespace/w/wzhang765/552/new/version12.16/forwarding_unit.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module Forwarding_Unit
+
+Top level modules:
+	Forwarding_Unit
+
+} {} {}} /filespace/w/wzhang765/552/new/version12.16/IDEX.v {1 {vlog -work work -vopt -stats=none /filespace/w/wzhang765/552/new/version12.16/IDEX.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module IDEX
+
+Top level modules:
+	IDEX
+
+} {} {}} /filespace/w/wzhang765/552/new/version12.16/register_file.v {1 {vlog -work work -vopt -stats=none /filespace/w/wzhang765/552/new/version12.16/register_file.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module register_file
+
+Top level modules:
+	register_file
+
+} {} {}} /filespace/w/wzhang765/552/new/version12.16/pc_control_revised.v {1 {vlog -work work -vopt -stats=none /filespace/w/wzhang765/552/new/version12.16/pc_control_revised.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module pc_control
+
+Top level modules:
+	pc_control
+
+} {} {}} /filespace/w/wzhang765/552/new/version12.16/EXMEM.v {1 {vlog -work work -vopt -stats=none /filespace/w/wzhang765/552/new/version12.16/EXMEM.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module EXMEM
+
+Top level modules:
+	EXMEM
+
+} {} {}} /filespace/w/wzhang765/552/new/version12.16/IFID.v {1 {vlog -work work -vopt -stats=none /filespace/w/wzhang765/552/new/version12.16/IFID.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module IFID
+
+Top level modules:
+	IFID
+
+} {} {}} /filespace/w/wzhang765/552/new/version12.16/register.v {1 {vlog -work work -vopt -stats=none /filespace/w/wzhang765/552/new/version12.16/register.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module register
+
+Top level modules:
+	register
+
+} {} {}} /filespace/w/wzhang765/552/new/version12.16/pipelined_cache_control.v {1 {vlog -work work -vopt -stats=none /filespace/w/wzhang765/552/new/version12.16/pipelined_cache_control.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module pipelined_cache_control
+
+Top level modules:
+	pipelined_cache_control
+
+} {} {}} /filespace/w/wzhang765/552/new/version12.16/wisc_trace_p3.v {1 {vlog -work work -vopt -stats=none /filespace/w/wzhang765/552/new/version12.16/wisc_trace_p3.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module wisc_trace_p3
+
+Top level modules:
+	wisc_trace_p3
+
+} {} {}} /filespace/w/wzhang765/552/new/version12.16/cpu.vg {1 {vlog -work work -vopt -stats=none /filespace/w/wzhang765/552/new/version12.16/cpu.vg
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module cpu
+
+Top level modules:
+	cpu
+
+} {} {}} /filespace/w/wzhang765/552/new/version12.16/pc_reg.v {1 {vlog -work work -vopt -stats=none /filespace/w/wzhang765/552/new/version12.16/pc_reg.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module pc_register
+
+Top level modules:
+	pc_register
+
+} {} {}} /filespace/w/wzhang765/552/new/version12.16/memory4c.v {1 {vlog -work work -vopt -stats=none /filespace/w/wzhang765/552/new/version12.16/memory4c.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module memory4c
+
+Top level modules:
+	memory4c
+
+} {} {}} /filespace/w/wzhang765/552/new/version12.16/MEMWB.v {1 {vlog -work work -vopt -stats=none /filespace/w/wzhang765/552/new/version12.16/MEMWB.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module MEMWB
+
+Top level modules:
+	MEMWB
+
+} {} {}} /filespace/w/wzhang765/552/new/version12.16/write_decoder_4_16.v {1 {vlog -work work -vopt -stats=none /filespace/w/wzhang765/552/new/version12.16/write_decoder_4_16.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module write_decoder_4_16
+
+Top level modules:
+	write_decoder_4_16
+
+} {} {}}

@@ -1,0 +1,74 @@
+Warning: Design 'cpu' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : cpu
+Version: V-2023.12-SP5
+Date   : Mon Dec 16 22:50:36 2024
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: tt0p85v25c   Library: saed32lvt_tt0p85v25c
+Wire Load Model Mode: enclosed
+
+  Startpoint: cache_ctrl/Instr_cache/way_1/sets[0]/words[0]/data_out_reg[14]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: if_id/instr_pldff/q_reg[14]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  cpu                16000                 saed32lvt_tt0p85v25c
+  cache_word_WIDTH16_512
+                     8000                  saed32lvt_tt0p85v25c
+  pipelined_cache_control
+                     1000000               saed32lvt_tt0p85v25c
+  IFID               8000                  saed32lvt_tt0p85v25c
+  pldff_WIDTH16_0    ForQA                 saed32lvt_tt0p85v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  cache_ctrl/Instr_cache/way_1/sets[0]/words[0]/data_out_reg[14]/CLK (DFFX1_LVT)
+                                                          0.00 #     0.00 r
+  cache_ctrl/Instr_cache/way_1/sets[0]/words[0]/data_out_reg[14]/Q (DFFX1_LVT)
+                                                          0.09       0.09 f
+  cache_ctrl/Instr_cache/way_1/sets[0]/words[0]/data_out_tri[14]/Y (TNBUFFX8_LVT)
+                                                          2.27       2.35 f
+  cache_ctrl/Instr_cache/way_1/sets[0]/words[0]/data_out[14] (cache_word_WIDTH16_512)
+                                                          0.00       2.35 f
+  cache_ctrl/Instr_cache/way_1/sets[0]/data_out[14] (data_set_64)
+                                                          0.00       2.35 f
+  cache_ctrl/Instr_cache/way_1/data_out[14] (data_way_array_2)
+                                                          0.00       2.35 f
+  cache_ctrl/Instr_cache/data_out1[14] (cache_1)          0.00       2.35 f
+  cache_ctrl/U54/Y (AO221X1_LVT)                      58931.97   58934.32 f
+  cache_ctrl/Icache_instr_out[14] (pipelined_cache_control)
+                                                          0.00   58934.32 f
+  if_id/IF_instr[14] (IFID)                               0.00   58934.32 f
+  if_id/U31/Y (OR2X1_LVT)                                 0.07   58934.40 f
+  if_id/instr_pldff/d[14] (pldff_WIDTH16_0)               0.00   58934.40 f
+  if_id/instr_pldff/U16/Y (AO22X1_LVT)                    0.04   58934.44 f
+  if_id/instr_pldff/q_reg[14]/D (DFFX1_LVT)               0.01   58934.45 f
+  data arrival time                                              58934.45
+
+  clock clk (rise edge)                               100000.00  100000.00
+  clock network delay (ideal)                             0.00   100000.00
+  if_id/instr_pldff/q_reg[14]/CLK (DFFX1_LVT)             0.00   100000.00 r
+  library setup time                                     -3.26   99996.74
+  data required time                                             99996.74
+  --------------------------------------------------------------------------
+  data required time                                             99996.74
+  data arrival time                                              -58934.45
+  --------------------------------------------------------------------------
+  slack (MET)                                                    41062.29
+
+
+1
